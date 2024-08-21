@@ -5,6 +5,7 @@ def main():
     try:
         filename, url = sys.argv[1:]
     except:
+        extensao = input('Digite a extensão do arquivo (txt, md, etc.): ')
         filename = input('Nome do arquivo para salvar o texto: ')
         url = input('URL do vídeo: ')
 
